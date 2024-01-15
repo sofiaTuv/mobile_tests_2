@@ -1,1 +1,6 @@
-pytes
+pytest==7.4.3
+selene==2.0.0rc4
+requests==2.31.0
+allure-pytest==2.13.2
+python-dotenv==1.0.0
+pytest_voluptuous==1.2.0
