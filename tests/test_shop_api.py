@@ -9,6 +9,7 @@ pytest.item_id = None
 
 
 @allure.tag('api')
+@allure.label('layer', 'API')
 @allure.label('owner', 's.tuvykina')
 @allure.story('Создаем товар')
 def test_create_item():
@@ -47,6 +48,7 @@ def test_create_item():
 
 
 @allure.tag('api')
+@allure.label('layer', 'API')
 @allure.label('owner', 's.tuvykina')
 @allure.story('ID товара, по которому мы хотим получить информацию')
 def test_get_item_id():
@@ -75,6 +77,7 @@ def test_get_item_id():
 
 
 @allure.tag('api')
+@allure.label('layer', 'API')
 @allure.label('owner', 's.tuvykina')
 @allure.story('ID товара, который мы хотим обновить')
 def test_update_item():
@@ -101,6 +104,7 @@ def test_update_item():
 
 
 @allure.tag('api')
+@allure.label('layer', 'API')
 @allure.label('owner', 's.tuvykina')
 @allure.story('Поиск карточек товара')
 def test_search_items():
@@ -118,6 +122,7 @@ def test_search_items():
 
 
 @allure.tag('api')
+@allure.label('layer', 'API')
 @allure.label('owner', 's.tuvykina')
 @allure.story('ID товара, который мы хотим удалить')
 def test_delete_item():
