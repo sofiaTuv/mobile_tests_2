@@ -1,5 +1,5 @@
 ## Проект API автотестов на тестовый магазин shop.bugred
-![This is an image](resources/images/shop.png)
+![This is an image](resources/images/shop_bug.png)
 
 <h3> Список реализованных проверок:</h3>
 
