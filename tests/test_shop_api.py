@@ -61,6 +61,7 @@ def test_get_item_id():
         assert result.status_code == 200
     with allure.step('Проверка id'):
         assert str(data['result']['id']) == f'{pytest.item_id}'
+    with allure.step('Проверка схемы'):
         assert data == S(item_get)
     with allure.step('Проверка статуса'):
         assert str(data['status']) == 'ok'
