@@ -1,8 +1,8 @@
 import allure
 import pytest
 
-from page.schema import item_create, item_get, item_update, items_search, item_delete
-from page.shopbugred_api import TestShopBugredAPI
+from utils.schema import item_create, item_get, item_update, items_search, item_delete
+from utils.shopbugred_api import TestShopBugredAPI
 from pytest_voluptuous import S
 
 pytest.item_id = None
