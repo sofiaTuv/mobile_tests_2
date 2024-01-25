@@ -54,11 +54,8 @@ allure serve allure-results/
 #### Результаты тестов в Allure отчете
 ![This is an image](resources/images/results.png)
 
-#### Список тест кейсов
-![This is an image](resources/images/test.png)
-
-#### Пример отчета о прохождении api-теста
-![This is an image](resources/images/test_example.png)
+#### Список api тест-кейсов и пример отчета о прохождении
+![This is an image](resources/images/tests.png)
 
 <!-- Allure TestOps -->
 ----
@@ -69,11 +66,8 @@ allure serve allure-results/
 #### Dashboard с результатами тестирования
 ![This is an image](resources/images/dash.png)
 
-#### Список общих тестов
-![This is an image](resources/images/features.png)
-
-#### Пример отчета 
-![This is an image](resources/images/get_item.png)
+#### Список общих тестов и пример отчета 
+![This is an image](resources/images/tests_testoops.png)
 
 #### История запуска тестовых наборов
 ![This is an image](resources/images/launches.png)
