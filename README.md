@@ -67,7 +67,7 @@ allure serve allure-results/
 ![This is an image](resources/images/dash.png)
 
 #### Список общих тестов и пример отчета 
-![This is an image](resources/images/tests_testoops.png)
+![This is an image](resources/images/tets_testoops.png)
 
 #### История запуска тестовых наборов
 ![This is an image](resources/images/launches.png)
