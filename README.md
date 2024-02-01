@@ -44,7 +44,7 @@ allure serve allure-results/
 
 ### [Jenkins](https://jenkins.autotests.cloud/job/python_project_okko.tv/)
 
-#### При нажатии на "Build with Parameters" начнется сборка тестов и их прохождение, через виртуальную машину в Selenide
+#### При нажатии на "Build with Parameters" начнется сборка тестов и их прохождение, через виртуальную среду в Selenoid
 ![This is an image](resources/images/jenkins.png)
 
 <!-- Allure report -->
